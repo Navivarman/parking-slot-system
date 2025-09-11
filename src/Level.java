@@ -41,7 +41,7 @@ public class Level {
         return levelNumber;
     }
 
-    public Map<String,ParkingSpot> getSpots() {
+    public Map<String,ParkingSpot> getAllSpots() {
         return spots;
     }
 }

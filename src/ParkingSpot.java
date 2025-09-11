@@ -15,7 +15,7 @@ public class ParkingSpot {
         this.ticketId = null;
     }
 
-    public boolean isOccupied() { return occupied}
+    public boolean isOccupied() { return occupied; }
 
     public boolean occupy(String ticketId){
         if(!occupied){
