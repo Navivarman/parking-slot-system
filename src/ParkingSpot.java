@@ -38,4 +38,8 @@ public class ParkingSpot {
     public String getId() {
         return id;
     }
+
+    public int getLevelNumber() {
+        return levelNumber;
+    }
 }

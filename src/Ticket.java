@@ -9,7 +9,7 @@ public class Ticket {
     private double amount;
     private boolean paid;
 
-    public Ticket(String id, String plate, VehicleType type, String spotId, Instant entryTime, Instant exitTime) {
+    public Ticket(String id, String plate, VehicleType type, String spotId, Instant entryTime) {
         this.id = id;
         this.plate = plate;
         this.type = type;
