@@ -1,6 +1,6 @@
 import java.time.Instant;
 public class Ticket {
-    private final String id;
+    private final String ticketId;
     private final String plate;
     private final VehicleType type;
     private final String spotId;
@@ -9,8 +9,8 @@ public class Ticket {
     private double amount;
     private boolean paid;
 
-    public Ticket(String id, String plate, VehicleType type, String spotId, Instant entryTime) {
-        this.id = id;
+    public Ticket(String ticketId, String plate, VehicleType type, String spotId, Instant entryTime) {
+        this.ticketId = ticketId;
         this.plate = plate;
         this.type = type;
         this.spotId = spotId;
@@ -25,7 +25,7 @@ public class Ticket {
     }
 
     public String getId() {
-        return id;
+        return ticketId;
     }
     public String getPlate() {
         return plate;

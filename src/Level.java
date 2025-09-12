@@ -3,7 +3,7 @@ public class Level {
     private final int levelNumber;
     private final Map<String,ParkingSpot> spots;
 
-    public Level(int levelNumber, Map<String,ParkingSpot> spots) {
+    public Level(int levelNumber) {
         this.levelNumber = levelNumber;
         this.spots = new HashMap<>();
     }

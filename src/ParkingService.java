@@ -38,7 +38,7 @@ public class ParkingService {
 
     public void unparkVehicle(String ticketId) {
         Ticket ticket = activeTickets.get(ticketId);
-        if (ticket != null){
+        if (ticket == null){
             System.out.println("❌ Invalid Ticket ID");
             return;
         }
